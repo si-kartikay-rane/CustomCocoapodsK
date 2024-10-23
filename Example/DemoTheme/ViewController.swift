@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import DemoTheme
+import SwiftUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        initailView()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,6 +22,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func initailView(){
+        let customView = ReplaceMe()
+        let hostingController = UIHostingController(rootView: customView)
+        addChildViewController(hostingController)
+        hostingController.view.frame = self.view.bounds
+        hostingController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(hostingController.view)
+        hostingController.didMove(toParent: self)
+    }
 }
 

@@ -69,7 +69,7 @@
 		C53673EB8B658D649FFCD537691BEEDF /* DemoTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-umbrella.h"; sourceTree = "<group>"; };
 		CF993C7C49060BEAAA0EF1825D0C6231 /* Pods-DemoTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2143CEF00AA3EBCBA02EBE8830F1362 /* DemoTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoTheme-dummy.m"; sourceTree = "<group>"; };
-		FF8D6345816AAE8FD8BEB6A1E9C744B5 /* DemoTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemoTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF8D6345816AAE8FD8BEB6A1E9C744B5 /* DemoTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemoTheme.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
