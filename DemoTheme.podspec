@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DemoTheme'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DemoTheme.'
+  s.summary = 'A theme management framework for iOS projects.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/si-kartikay-rane/DemoTheme'
+  s.homepage         = 'https://github.com/si-kartikay-rane/CustomCocoapodsK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'si-kartikay-rane' => 'kartikay.rane@sportzinteractive.net' }
-  s.source           = { :git => 'https://github.com/si-kartikay-rane/DemoTheme.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/si-kartikay-rane/CustomCocoapodsK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'DemoTheme/Classes/**/*'
-  
+  #s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '6.0', '6.1', '6.2']
+
   # s.resource_bundles = {
   #   'DemoTheme' => ['DemoTheme/Assets/*.png']
   # }

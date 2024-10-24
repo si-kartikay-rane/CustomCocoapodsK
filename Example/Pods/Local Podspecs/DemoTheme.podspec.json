@@ -1,9 +1,9 @@
 {
   "name": "DemoTheme",
   "version": "0.1.0",
-  "summary": "A short description of DemoTheme.",
+  "summary": "A theme management framework for iOS projects.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/si-kartikay-rane/DemoTheme",
+  "homepage": "https://github.com/si-kartikay-rane/CustomCocoapodsK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "si-kartikay-rane": "kartikay.rane@sportzinteractive.net"
   },
   "source": {
-    "git": "https://github.com/si-kartikay-rane/DemoTheme.git",
+    "git": "https://github.com/si-kartikay-rane/CustomCocoapodsK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
   "source_files": "DemoTheme/Classes/**/*"
 }
