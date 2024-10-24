@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "DemoTheme/Classes/**/*"
+  "source_files": "DemoTheme/Classes/**/*",
+  "resource_bundles": {
+    "DemoTheme": [
+      "DemoTheme/Assets/**/*"
+    ]
+  }
 }
