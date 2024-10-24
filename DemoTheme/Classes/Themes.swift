@@ -7,16 +7,16 @@
 
 import Foundation
 
-struct LightTheme: Theme {
-    var backgroundColor: UIColor = .white
-    var textColor: UIColor = .black
-    var buttonColor: UIColor = .blue
-    var font: UIFont = .systemFont(ofSize: 14)
+public struct LightTheme: Theme {
+    public var backgroundColor: UIColor = .white
+    public var textColor: UIColor = .black
+    public var buttonColor: UIColor = .blue
+    public var font: UIFont = .systemFont(ofSize: 14)
 }
 
-struct DarkTheme: Theme {
-    var backgroundColor: UIColor = .black
-    var textColor: UIColor = .white
-    var buttonColor: UIColor = .red
-    var font: UIFont = .systemFont(ofSize: 14)
+public struct DarkTheme: Theme {
+    public var backgroundColor: UIColor = .black
+    public var textColor: UIColor = .white
+    public var buttonColor: UIColor = .red
+    public var font: UIFont = .systemFont(ofSize: 14)
 }
