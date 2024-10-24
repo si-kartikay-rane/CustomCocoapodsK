@@ -5,26 +5,30 @@
 //  Created by Kartikay Rane on 23/10/24.
 //
 
-import Foundation
+public class ThemeManager {
+    // Shared instance accessible globally
+    public static let shared = ThemeManager()
 
-class ThemeManager {
-    static let shared = ThemeManager()
-
+    // Private initializer to prevent direct initialization
     private init() {}
 
+    // Public property to access the current theme
     private var currentTheme: Theme = LightTheme()
 
-    func applyTheme(_ theme: Theme) {
+    // Method to apply a theme
+    public func applyTheme(_ theme: Theme) {
         currentTheme = theme
+        // Notify observers about the theme change
         NotificationCenter.default.post(name: .themeDidChange, object: nil)
     }
 
-    func getTheme() -> Theme {
+    // Method to get the current theme
+    public func getTheme() -> Theme {
         return currentTheme
     }
 }
 
 // Notification for theme change
 extension Notification.Name {
-    static let themeDidChange = Notification.Name("themeDidChange")
+    public static let themeDidChange = Notification.Name("themeDidChange")
 }

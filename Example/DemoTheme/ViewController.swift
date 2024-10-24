@@ -13,8 +13,8 @@ import SwiftUI
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        setupUI()
         super.viewDidLoad()
-        initailView()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,14 +23,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func initailView(){
-        let customView = ReplaceMe()
-        let hostingController = UIHostingController(rootView: customView)
-        addChildViewController(hostingController)
-        hostingController.view.frame = self.view.bounds
-        hostingController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.view.addSubview(hostingController.view)
-        hostingController.didMove(toParent: self)
+    func setupUI() {
+        let theme = ThemeManager.shared.getTheme()
+        view.backgroundColor = theme.backgroundColor
+        // Apply other theme properties to UI elements
+    }
+    
+    @objc func updateTheme() {
+        setupUI()  // Update UI when the theme changes
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
 }
 

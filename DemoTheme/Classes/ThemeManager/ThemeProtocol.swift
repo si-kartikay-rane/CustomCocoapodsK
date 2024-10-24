@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Theme {
+public protocol Theme {
     var backgroundColor: UIColor { get }
     var textColor: UIColor { get }
     var buttonColor: UIColor { get }
