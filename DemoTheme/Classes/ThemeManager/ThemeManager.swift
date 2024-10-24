@@ -6,14 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
 
 public class ThemeManager: ObservableObject{
     public static let shared = ThemeManager()
 
     public init() {}
 
-    public var currentTheme: Theme = LightTheme()
-
+    @Published public var currentTheme: Theme = LightTheme()
+    
     public func applyTheme(_ theme: Theme) {
         currentTheme = theme
     }
