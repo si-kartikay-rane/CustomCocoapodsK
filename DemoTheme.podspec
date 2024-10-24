@@ -33,9 +33,13 @@ TODO: Add long description of the pod here.
   s.source_files = 'DemoTheme/Classes/**/*'
   #s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '6.0', '6.1', '6.2']
 
-  # s.resource_bundles = {
-  #   'DemoTheme' => ['DemoTheme/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'DemoTheme' => ['DemoTheme/Assets/Media.xcassets/**/*']
+  }
+
+#  s.resource_bundles = {
+#    'DemoTheme' => ['Assets/**/*.xcassets'] # Adjust this path as necessary
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
