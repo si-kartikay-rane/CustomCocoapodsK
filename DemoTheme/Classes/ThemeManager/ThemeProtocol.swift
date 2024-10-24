@@ -12,4 +12,6 @@ public protocol Theme {
     var textColor: UIColor { get }
     var buttonColor: UIColor { get }
     var font: UIFont { get }
+    var imagePrefix: String { get }
+    func imageName(for key: String) -> String
 }
