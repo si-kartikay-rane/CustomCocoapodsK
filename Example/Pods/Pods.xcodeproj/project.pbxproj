@@ -73,6 +73,8 @@
 		7BFC14EBD5F25C9E67A9258DB1846FC3 /* Pods-DemoTheme_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTheme_Example-Info.plist"; sourceTree = "<group>"; };
 		836CA91BEBA98FD6AEEB8CB3786E7A81 /* ResourceBundle-DemoTheme-DemoTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DemoTheme-DemoTheme-Info.plist"; sourceTree = "<group>"; };
 		89C56980CCD6B462D2D5F587EA15DC7B /* Pods-DemoTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93F146662CCB765A00E14921 /* DarkTheme.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F1466E2CCB767B00E14921 /* LightTheme.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1BD3438B0500F5D769E2502B9F72928 /* Pods-DemoTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTheme_Example.modulemap"; sourceTree = "<group>"; };
 		AA7E7E1C6FC52F41D91A2066430DD441 /* DemoTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-umbrella.h"; sourceTree = "<group>"; };
@@ -102,6 +104,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				03325DFCE80DEABDE2435C177559E82A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F146632CCB765A00E14921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1466B2CCB767B00E14921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +209,8 @@
 				67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme.bundle */,
 				1E7617577C447545B6486F00F608202A /* Pods_DemoTheme_Example.framework */,
 				6CCC9F0D4878D16115CE59797F715888 /* Pods_DemoTheme_Tests.framework */,
+				93F146662CCB765A00E14921 /* DarkTheme.bundle */,
+				93F1466E2CCB767B00E14921 /* LightTheme.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,6 +363,44 @@
 			productReference = 6CCC9F0D4878D16115CE59797F715888 /* Pods_DemoTheme_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		93F146652CCB765A00E14921 /* DarkTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F146692CCB765A00E14921 /* Build configuration list for PBXNativeTarget "DarkTheme" */;
+			buildPhases = (
+				93F146622CCB765A00E14921 /* Sources */,
+				93F146632CCB765A00E14921 /* Frameworks */,
+				93F146642CCB765A00E14921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkTheme;
+			packageProductDependencies = (
+			);
+			productName = DarkTheme;
+			productReference = 93F146662CCB765A00E14921 /* DarkTheme.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		93F1466D2CCB767B00E14921 /* LightTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F1466F2CCB767B00E14921 /* Build configuration list for PBXNativeTarget "LightTheme" */;
+			buildPhases = (
+				93F1466A2CCB767B00E14921 /* Sources */,
+				93F1466B2CCB767B00E14921 /* Frameworks */,
+				93F1466C2CCB767B00E14921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightTheme;
+			packageProductDependencies = (
+			);
+			productName = LightTheme;
+			productReference = 93F1466E2CCB767B00E14921 /* LightTheme.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		E8DFD2B68C3ABF5048A85BAAE5789399 /* DemoTheme */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 035F49D8152558FE2E172D9D57E9477F /* Build configuration list for PBXNativeTarget "DemoTheme" */;
@@ -372,6 +428,16 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					93F146652CCB765A00E14921 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+					93F1466D2CCB767B00E14921 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,6 +456,8 @@
 				5A268FA6A46D621D9683D0AC7C01F43F /* DemoTheme-DemoTheme */,
 				6284D3E9C15E45C181F7F72EC2C818B5 /* Pods-DemoTheme_Example */,
 				7CEDDE13667E277B9B071D354D19FA86 /* Pods-DemoTheme_Tests */,
+				93F146652CCB765A00E14921 /* DarkTheme */,
+				93F1466D2CCB767B00E14921 /* LightTheme */,
 			);
 		};
 /* End PBXProject section */
@@ -407,6 +475,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F852EE3D82766490934657A2C05AC062 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F146642CCB765A00E14921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1466C2CCB767B00E14921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +526,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D48F61FB5CC2449149D05F509F5C84 /* Pods-DemoTheme_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F146622CCB765A00E14921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1466A2CCB767B00E14921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +861,130 @@
 			};
 			name = Release;
 		};
+		93F146672CCB765A00E14921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sportz-interactive.DarkTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		93F146682CCB765A00E14921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sportz-interactive.DarkTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93F146702CCB767B00E14921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sportz-interactive.LightTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		93F146712CCB767B00E14921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sportz-interactive.LightTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		9459C903F3252E28029432BEC622E0DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0118FD84F97D25BACD7DA7A53424D1B9 /* Pods-DemoTheme_Example.release.xcconfig */;
@@ -894,6 +1114,24 @@
 			buildConfigurations = (
 				B59D7031F4F280EE76309D9C59E66965 /* Debug */,
 				5186072DA6735117DCE003307EDA8D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F146692CCB765A00E14921 /* Build configuration list for PBXNativeTarget "DarkTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F146672CCB765A00E14921 /* Debug */,
+				93F146682CCB765A00E14921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F1466F2CCB767B00E14921 /* Build configuration list for PBXNativeTarget "LightTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F146702CCB767B00E14921 /* Debug */,
+				93F146712CCB767B00E14921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

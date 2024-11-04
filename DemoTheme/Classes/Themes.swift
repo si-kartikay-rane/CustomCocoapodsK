@@ -14,10 +14,10 @@ public struct LightTheme: Theme {
     public var textColor: UIColor = .black
     public var buttonColor: UIColor = .blue
     public var font: UIFont = .systemFont(ofSize: 14)
-    public var imagePrefix: String = "light_"
+   // public var imagePrefix: String = "light_"
     
     public func imageName(for key: String) -> String {
-        return "\(imagePrefix)\(key)"
+        return "LightTheme/\(key)"
     }
 }
 
@@ -28,9 +28,9 @@ public struct DarkTheme: Theme {
     public var textColor: UIColor = .white
     public var buttonColor: UIColor = .red
     public var font: UIFont = .systemFont(ofSize: 14)
-    public var imagePrefix: String = "dark_"
+   // public var imagePrefix: String = "dark_"
     
     public func imageName(for key: String) -> String {
-        return "\(imagePrefix)\(key)"
+        return "DarkTheme/\(key)"
     }
 }
