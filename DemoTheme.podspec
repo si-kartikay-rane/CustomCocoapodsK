@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DemoTheme'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary = 'A theme management framework for iOS projects.'
 
 # This description is used to generate tags and improve search results.
