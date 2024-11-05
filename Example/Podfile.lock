@@ -1,5 +1,5 @@
 PODS:
-  - DemoTheme (0.1.0)
+  - DemoTheme (1.1.0)
 
 DEPENDENCIES:
   - DemoTheme (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DemoTheme: 3e5482d5dbc3e252a02a234d23758ffa6c711e60
+  DemoTheme: 53efcc019bd44dd26cc903678e4139e70ed86a7d
 
 PODFILE CHECKSUM: 3c181a27841bca9e21f62ab946b633171898a561
 
