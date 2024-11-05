@@ -17,7 +17,7 @@ public struct LightTheme: Theme {
    // public var imagePrefix: String = "light_"
     
     public func imageName(for key: String) -> String {
-        return "LightTheme/\(key)"
+        return "LightTheme_\(key)"
     }
 }
 
@@ -31,6 +31,6 @@ public struct DarkTheme: Theme {
    // public var imagePrefix: String = "dark_"
     
     public func imageName(for key: String) -> String {
-        return "DarkTheme/\(key)"
+        return "DarkTheme_\(key)"
     }
 }
