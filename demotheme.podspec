@@ -29,17 +29,18 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.static_framework = true
 
   s.source_files = 'DemoTheme/Classes/**/*'
-  #s.swift_versions = ['4.0', '4.1', '4.2', '5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7', '5.8', '6.0', '6.1', '6.2']
-
-  s.resource_bundles = {
-    'DemoTheme' => ['DemoTheme/DemoTheme/Assets/**/*']
-  }
+  s.swift_versions =  '5.5'
 
 #  s.resource_bundles = {
-#    'DemoTheme' => ['Assets/**/*.xcassets'] # Adjust this path as necessary
+#    'demotheme' => ['demotheme/Assets/*.{xcassets,png,json,string}']
 #  }
+  
+  s.resource_bundles = {
+    'DemoTheme' => ['Assets/**/*.xcassets'] # Adjust this path as necessary
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

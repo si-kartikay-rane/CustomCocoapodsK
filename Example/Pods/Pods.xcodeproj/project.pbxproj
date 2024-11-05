@@ -82,7 +82,7 @@
 		B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D0303C5F6786A3BE0624B33B62AA85 /* Pods-DemoTheme_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTheme_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B8237407A7F4E55A45F724DAE9ED7279 /* DemoTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoTheme.modulemap; sourceTree = "<group>"; };
-		C61B63EE124CE010C92B80077CB3BDB4 /* DemoTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemoTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C61B63EE124CE010C92B80077CB3BDB4 /* demotheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = demotheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF993C7C49060BEAAA0EF1825D0C6231 /* Pods-DemoTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0191B3ACD61DBE564FF6163CEFF0F27 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = DemoTheme/Assets/Media.xcassets; sourceTree = "<group>"; };
 		EB58A4750B4A4A361F0C790BA99CCDF7 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
@@ -218,7 +218,7 @@
 		B787D85BA0B8810730260CAFDC668745 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C61B63EE124CE010C92B80077CB3BDB4 /* DemoTheme.podspec */,
+				C61B63EE124CE010C92B80077CB3BDB4 /* demotheme.podspec */,
 				3A953E726C06653E2531019E1428ABFF /* LICENSE */,
 				2413BC0742169CBF59DB761970D5232E /* README.md */,
 			);
