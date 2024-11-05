@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		05ECBE6F1031543F29DF439D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24F66D8F14381F096B04424C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		28B8C483368615407E219FCB /* demotheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = demotheme.podspec; path = ../demotheme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28B8C483368615407E219FCB /* DemoTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DemoTheme.podspec; path = ../DemoTheme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		365BE9E2AC0CB182CECD0515 /* Pods-DemoTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTheme_Tests.release.xcconfig"; path = "Target Support Files/Pods-DemoTheme_Tests/Pods-DemoTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DemoTheme_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTheme_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				28B8C483368615407E219FCB /* demotheme.podspec */,
+				28B8C483368615407E219FCB /* DemoTheme.podspec */,
 				24F66D8F14381F096B04424C /* README.md */,
 				05ECBE6F1031543F29DF439D /* LICENSE */,
 			);
