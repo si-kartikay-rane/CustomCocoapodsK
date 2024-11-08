@@ -1,6 +1,6 @@
 {
   "name": "DemoTheme",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "A theme management framework for iOS projects.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/si-kartikay-rane/CustomCocoapodsK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/si-kartikay-rane/CustomCocoapodsK.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "13.0"
@@ -23,7 +23,8 @@
   "swift_versions": "5.5",
   "resource_bundles": {
     "DemoTheme": [
-      "DemoTheme/Assets/**/*"
+      "DemoTheme/Assets/LightTheme/*",
+      "DemoTheme/Assets/DarkTheme/*"
     ]
   },
   "swift_version": "5.5"

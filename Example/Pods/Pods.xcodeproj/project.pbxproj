@@ -8,86 +8,91 @@
 
 /* Begin PBXBuildFile section */
 		2BFAA070DACBBD271F12C95167BCDFE9 /* Pods-DemoTheme_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB97A32B5A0A05D103990F7433F8193 /* Pods-DemoTheme_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37A5DD45BE01046CE3101395F8C37C4C /* DemoTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FC7C0E28629FB6041CCA70146F9D6 /* DemoTheme-dummy.m */; };
+		37A5DD45BE01046CE3101395F8C37C4C /* DemoTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA58915795933586A65D1F7F8458136 /* DemoTheme-dummy.m */; };
 		473630337FF2B0DE535373851579E7F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4988797BB119E17EB1804A002192E740 /* Pods-DemoTheme_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73993A6E6EA06E04CD92A201FFAC5C63 /* Pods-DemoTheme_Example-dummy.m */; };
 		4B51264385813B0136B3DDDC83CDCBA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5DB6A627B4219CFDE7888EE47F9B7C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0339A534491F3A7348F8315A1D024BE4 /* Assets.xcassets */; };
-		64FEDE4659EA1660F3E4D4EE502E85EE /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FA5DEBBA9B8B48B1AE425AF297A00 /* ThemeProtocol.swift */; };
+		64FEDE4659EA1660F3E4D4EE502E85EE /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425A4290BC65AB43E397D237B9A7D9B /* ThemeProtocol.swift */; };
 		86919D888F0203435928A07326EF65C8 /* Pods-DemoTheme_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3045BD5AE57C027224E3CA419E30C2 /* Pods-DemoTheme_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		941C579AF630DDE83101E20DD1ADCF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9A8E3087A5E759E4396D9DEA259C8CB5 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689556EAA66F829DDB9963756349E97 /* Themes.swift */; };
-		9C30775F1907CE2D05958FB8FC7BCDF5 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306161EA1BC05C4CF36DBCC1241A7A8 /* ThemeManager.swift */; };
+		9A8E3087A5E759E4396D9DEA259C8CB5 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF82C7DF654BB7F6BFF8E0E7E96B109 /* Themes.swift */; };
+		9C30775F1907CE2D05958FB8FC7BCDF5 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484F353B8FF6B4C26510257968B962AF /* ThemeManager.swift */; };
 		B0D48F61FB5CC2449149D05F509F5C84 /* Pods-DemoTheme_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF551C2689E1E7B961CDE863ED36A3D0 /* Pods-DemoTheme_Tests-dummy.m */; };
-		D2E5C4CB4F2C64687E24E805EA47587E /* DemoTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC9F12FD99C655B0D43551118976660 /* DemoTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2E5C4CB4F2C64687E24E805EA47587E /* DemoTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CC873B400CCF990F3B550AF64E118F /* DemoTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68CFBD7F4178F6213B7E5A434EA71FAB /* PBXContainerItemProxy */ = {
+		3A37999CAC3532798FA135F5FE4F7997 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8DFD2B68C3ABF5048A85BAAE5789399;
 			remoteInfo = DemoTheme;
 		};
-		DD957D761A4F254006A4F1B0A76D6C05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6284D3E9C15E45C181F7F72EC2C818B5;
-			remoteInfo = "Pods-DemoTheme_Example";
-		};
-		F77B515FD02D159F5917F4B24E1DE7FF /* PBXContainerItemProxy */ = {
+		693C504745BD491FC51653D936C339DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5A268FA6A46D621D9683D0AC7C01F43F;
 			remoteInfo = "DemoTheme-DemoTheme";
 		};
+		AFF984E8C414E5D4EFACD64C20D40F32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6284D3E9C15E45C181F7F72EC2C818B5;
+			remoteInfo = "Pods-DemoTheme_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0339A534491F3A7348F8315A1D024BE4 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DemoTheme/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		04F47EB8B046AEE617C155287B37696A /* Pods-DemoTheme_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTheme_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		11B7043A0706042961DD86E805F11DA6 /* Pods-DemoTheme_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTheme_Tests-Info.plist"; sourceTree = "<group>"; };
-		1E7617577C447545B6486F00F608202A /* Pods-DemoTheme_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoTheme_Example"; path = Pods_DemoTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B0581F7F62C842A4C7C1D3A708CF812 /* DemoTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTheme.release.xcconfig; sourceTree = "<group>"; };
+		1E7617577C447545B6486F00F608202A /* Pods_DemoTheme_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3045BD5AE57C027224E3CA419E30C2 /* Pods-DemoTheme_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTheme_Tests-umbrella.h"; sourceTree = "<group>"; };
-		34C6ACB0E53868132131FC40431A3DD6 /* DemoTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTheme.debug.xcconfig; sourceTree = "<group>"; };
+		2C682B0C02E40EC7FA66E6E7A5BCD4F2 /* ResourceBundle-DemoTheme-DemoTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DemoTheme-DemoTheme-Info.plist"; sourceTree = "<group>"; };
+		30D5B626A1FDF67757589D4F65353805 /* DemoTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DemoTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32FC0AA5F95C3D31B7B23D664796C546 /* DemoTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemoTheme-Info.plist"; sourceTree = "<group>"; };
+		352319BFD958F1C9BB8E24924E6476A8 /* DemoTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-prefix.pch"; sourceTree = "<group>"; };
 		35EE8684BE5F0A170B42EB6DDD17AE21 /* Pods-DemoTheme_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTheme_Example-Info.plist"; sourceTree = "<group>"; };
-		3689556EAA66F829DDB9963756349E97 /* Themes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Themes.swift; path = DemoTheme/Classes/Themes.swift; sourceTree = "<group>"; };
-		39CB0CD98D2A0BAA259F0E7A8A908181 /* DemoTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DemoTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		476C6C8216569707B1CA2E30FBF30E8B /* Pods-DemoTheme_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTheme_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		484F353B8FF6B4C26510257968B962AF /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		5B79C7AC8CB6A04E030B73A13A645967 /* DemoTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTheme.debug.xcconfig; sourceTree = "<group>"; };
 		5D695B14690EFF43B588B45898F00494 /* Pods-DemoTheme_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTheme_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		605B9B0AA45D494AFE2CFD8B014BE699 /* Pods-DemoTheme_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTheme_Tests.modulemap"; sourceTree = "<group>"; };
-		6306161EA1BC05C4CF36DBCC1241A7A8 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
-		66534DE9F7EB4EAF36EDD5D846FED1C6 /* DemoTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-prefix.pch"; sourceTree = "<group>"; };
-		67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme-DemoTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "DemoTheme-DemoTheme"; path = DemoTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCC9F0D4878D16115CE59797F715888 /* Pods-DemoTheme_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoTheme_Tests"; path = Pods_DemoTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTheme.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCC9F0D4878D16115CE59797F715888 /* Pods_DemoTheme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3DE903ED6FE2AC18AAE51965E66113 /* Pods-DemoTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTheme_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73993A6E6EA06E04CD92A201FFAC5C63 /* Pods-DemoTheme_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTheme_Example-dummy.m"; sourceTree = "<group>"; };
-		739FA5DEBBA9B8B48B1AE425AF297A00 /* ThemeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
-		765FC7C0E28629FB6041CCA70146F9D6 /* DemoTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoTheme-dummy.m"; sourceTree = "<group>"; };
+		7BF82C7DF654BB7F6BFF8E0E7E96B109 /* Themes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Themes.swift; path = ../Themes.swift; sourceTree = "<group>"; };
 		806F98C8A7C4C9D228BA0B8AEA3A3B64 /* Pods-DemoTheme_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTheme_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		870FEEB6F107AD69B784E02C5AB9EBBD /* ResourceBundle-DemoTheme-DemoTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DemoTheme-DemoTheme-Info.plist"; sourceTree = "<group>"; };
+		853015C34EBE80F4EA6C64D0959AEA96 /* DemoTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoTheme.modulemap; sourceTree = "<group>"; };
+		889BCEB1D44088A6FD48F8976FE0631E /* DemoTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DemoTheme.release.xcconfig; sourceTree = "<group>"; };
+		896945B09DFA00BBF725DB1A1C911CE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		897FBF642919D1689A763C6B8DB132BF /* Pods-DemoTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89C56980CCD6B462D2D5F587EA15DC7B /* Pods-DemoTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96AC925DD10F5763581A30FB19E33277 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9CC9F12FD99C655B0D43551118976660 /* DemoTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BA58915795933586A65D1F7F8458136 /* DemoTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DemoTheme-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8CC873B400CCF990F3B550AF64E118F /* DemoTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DemoTheme-umbrella.h"; sourceTree = "<group>"; };
 		ACB97A32B5A0A05D103990F7433F8193 /* Pods-DemoTheme_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTheme_Example-umbrella.h"; sourceTree = "<group>"; };
 		AF551C2689E1E7B961CDE863ED36A3D0 /* Pods-DemoTheme_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTheme_Tests-dummy.m"; sourceTree = "<group>"; };
-		B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DemoTheme; path = DemoTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57E171B90330F58E497FF0D3C68F984 /* Pods-DemoTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BDA77263C81E532D8FB07AC26FC3A1C3 /* DemoTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DemoTheme.modulemap; sourceTree = "<group>"; };
-		C3056930351AB728F39AB8B39C7F8EE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CF993C7C49060BEAAA0EF1825D0C6231 /* Pods-DemoTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E2574A4FC680E51EE83AD51F1AABEE5B /* DemoTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DemoTheme-Info.plist"; sourceTree = "<group>"; };
 		E36A2F07C7A95AFD5483DCA66434F2CA /* Pods-DemoTheme_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTheme_Example-resources.sh"; sourceTree = "<group>"; };
+		E425A4290BC65AB43E397D237B9A7D9B /* ThemeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		EC3BAA33BA22C92D4DC4472C5B82C7E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3D53F9FC67B696560897900EF4736EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C07217AEF8509BE2CBF379456258A85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,16 +117,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B7FA60C870EC7EF035A7D889277490 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A6A004A9876AE63CAF5FBED17662B0 /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				484F353B8FF6B4C26510257968B962AF /* ThemeManager.swift */,
+				E425A4290BC65AB43E397D237B9A7D9B /* ThemeProtocol.swift */,
+				7BF82C7DF654BB7F6BFF8E0E7E96B109 /* Themes.swift */,
+			);
+			name = ThemeManager;
+			path = DemoTheme/Classes/ThemeManager;
+			sourceTree = "<group>";
+		};
+		36ACA40BB17BE822CBD8DB88CD884DA8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30D5B626A1FDF67757589D4F65353805 /* DemoTheme.podspec */,
+				896945B09DFA00BBF725DB1A1C911CE0 /* LICENSE */,
+				EC3BAA33BA22C92D4DC4472C5B82C7E9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41290C695ABCAF8EA041B9410FEB49E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA29DED8D3E52AC4060112CE9836E894 /* DemoTheme */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		4B65F1A0255C22681201938D4F4B7B41 /* Pods-DemoTheme_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,16 +174,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C314A14C301086FD11735E841159DE5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				39CB0CD98D2A0BAA259F0E7A8A908181 /* DemoTheme.podspec */,
-				96AC925DD10F5763581A30FB19E33277 /* LICENSE */,
-				C3056930351AB728F39AB8B39C7F8EE1 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		93A8B9C98C5EA349069BEB9F8D24F8CB /* Pods-DemoTheme_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,73 +190,26 @@
 			path = "Target Support Files/Pods-DemoTheme_Tests";
 			sourceTree = "<group>";
 		};
-		A38F447D51C42C769BC89986E033F620 /* DemoTheme */ = {
-			isa = PBXGroup;
-			children = (
-				0339A534491F3A7348F8315A1D024BE4 /* Assets.xcassets */,
-				3689556EAA66F829DDB9963756349E97 /* Themes.swift */,
-				5C314A14C301086FD11735E841159DE5 /* Pod */,
-				C9CDFB2A94E74F0852A89936F767F20D /* Support Files */,
-				BC9683A4B2555CCE7B6F39265FFA32D7 /* ThemeManager */,
-			);
-			name = DemoTheme;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		B10222FB6CDA45876DABC6EB147A1447 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme */,
-				67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme-DemoTheme */,
-				1E7617577C447545B6486F00F608202A /* Pods-DemoTheme_Example */,
-				6CCC9F0D4878D16115CE59797F715888 /* Pods-DemoTheme_Tests */,
+				B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme.framework */,
+				67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme.bundle */,
+				1E7617577C447545B6486F00F608202A /* Pods_DemoTheme_Example.framework */,
+				6CCC9F0D4878D16115CE59797F715888 /* Pods_DemoTheme_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BC9683A4B2555CCE7B6F39265FFA32D7 /* ThemeManager */ = {
-			isa = PBXGroup;
-			children = (
-				6306161EA1BC05C4CF36DBCC1241A7A8 /* ThemeManager.swift */,
-				739FA5DEBBA9B8B48B1AE425AF297A00 /* ThemeProtocol.swift */,
-			);
-			name = ThemeManager;
-			path = DemoTheme/Classes/ThemeManager;
-			sourceTree = "<group>";
-		};
-		C9CDFB2A94E74F0852A89936F767F20D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BDA77263C81E532D8FB07AC26FC3A1C3 /* DemoTheme.modulemap */,
-				765FC7C0E28629FB6041CCA70146F9D6 /* DemoTheme-dummy.m */,
-				E2574A4FC680E51EE83AD51F1AABEE5B /* DemoTheme-Info.plist */,
-				66534DE9F7EB4EAF36EDD5D846FED1C6 /* DemoTheme-prefix.pch */,
-				9CC9F12FD99C655B0D43551118976660 /* DemoTheme-umbrella.h */,
-				34C6ACB0E53868132131FC40431A3DD6 /* DemoTheme.debug.xcconfig */,
-				2B0581F7F62C842A4C7C1D3A708CF812 /* DemoTheme.release.xcconfig */,
-				870FEEB6F107AD69B784E02C5AB9EBBD /* ResourceBundle-DemoTheme-DemoTheme-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DemoTheme";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D123B1A1281A24921B2063E2936DF903 /* Development Pods */,
+				41290C695ABCAF8EA041B9410FEB49E1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B10222FB6CDA45876DABC6EB147A1447 /* Products */,
 				E70B2CB282AAB7CFE0FCAC539325CB94 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D123B1A1281A24921B2063E2936DF903 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A38F447D51C42C769BC89986E033F620 /* DemoTheme */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -257,6 +227,33 @@
 				93A8B9C98C5EA349069BEB9F8D24F8CB /* Pods-DemoTheme_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA29DED8D3E52AC4060112CE9836E894 /* DemoTheme */ = {
+			isa = PBXGroup;
+			children = (
+				36ACA40BB17BE822CBD8DB88CD884DA8 /* Pod */,
+				F2B7E29CF1E3BC495FBE58B7E3056AFE /* Support Files */,
+				00A6A004A9876AE63CAF5FBED17662B0 /* ThemeManager */,
+			);
+			name = DemoTheme;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2B7E29CF1E3BC495FBE58B7E3056AFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				853015C34EBE80F4EA6C64D0959AEA96 /* DemoTheme.modulemap */,
+				9BA58915795933586A65D1F7F8458136 /* DemoTheme-dummy.m */,
+				32FC0AA5F95C3D31B7B23D664796C546 /* DemoTheme-Info.plist */,
+				352319BFD958F1C9BB8E24924E6476A8 /* DemoTheme-prefix.pch */,
+				A8CC873B400CCF990F3B550AF64E118F /* DemoTheme-umbrella.h */,
+				5B79C7AC8CB6A04E030B73A13A645967 /* DemoTheme.debug.xcconfig */,
+				889BCEB1D44088A6FD48F8976FE0631E /* DemoTheme.release.xcconfig */,
+				2C682B0C02E40EC7FA66E6E7A5BCD4F2 /* ResourceBundle-DemoTheme-DemoTheme-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DemoTheme";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,11 +288,11 @@
 /* Begin PBXNativeTarget section */
 		5A268FA6A46D621D9683D0AC7C01F43F /* DemoTheme-DemoTheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F70B82EE8FF769453503B2268A20F49 /* Build configuration list for PBXNativeTarget "DemoTheme-DemoTheme" */;
+			buildConfigurationList = 235F79A20E8D46A77DE33CE0E4D1112F /* Build configuration list for PBXNativeTarget "DemoTheme-DemoTheme" */;
 			buildPhases = (
-				07A0AB2DA882467C7B7A09E003C4FC6C /* Sources */,
-				C0B7FA60C870EC7EF035A7D889277490 /* Frameworks */,
-				8292A4497E878AE73AABC1C2A37A8A92 /* Resources */,
+				94B862983C9709F16D1FD3E05FF74E0F /* Sources */,
+				3D53F9FC67B696560897900EF4736EA4 /* Frameworks */,
+				E446788D585C01DFFFACB0B416E90EFC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -303,7 +300,7 @@
 			);
 			name = "DemoTheme-DemoTheme";
 			productName = DemoTheme;
-			productReference = 67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme-DemoTheme */;
+			productReference = 67839F58D0E0A758E68E23DCAA4CE2E9 /* DemoTheme.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		6284D3E9C15E45C181F7F72EC2C818B5 /* Pods-DemoTheme_Example */ = {
@@ -318,11 +315,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				FEEA2D0B8EC0353F271623A05DC7FE70 /* PBXTargetDependency */,
+				2C10F63CBF20FFE1F821C076569EF085 /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoTheme_Example";
 			productName = Pods_DemoTheme_Example;
-			productReference = 1E7617577C447545B6486F00F608202A /* Pods-DemoTheme_Example */;
+			productReference = 1E7617577C447545B6486F00F608202A /* Pods_DemoTheme_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7CEDDE13667E277B9B071D354D19FA86 /* Pods-DemoTheme_Tests */ = {
@@ -337,11 +334,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				D7DCC1C9F2A26897A83FED07623A19EE /* PBXTargetDependency */,
+				19412D38966D018F811ADE019AB2C43E /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoTheme_Tests";
 			productName = Pods_DemoTheme_Tests;
-			productReference = 6CCC9F0D4878D16115CE59797F715888 /* Pods-DemoTheme_Tests */;
+			productReference = 6CCC9F0D4878D16115CE59797F715888 /* Pods_DemoTheme_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8DFD2B68C3ABF5048A85BAAE5789399 /* DemoTheme */ = {
@@ -356,11 +353,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				10BC5436F7A1E7B3293B3BF60529CE01 /* PBXTargetDependency */,
+				ABCFDE2CC5705A1C291B5B1A8BD38101 /* PBXTargetDependency */,
 			);
 			name = DemoTheme;
 			productName = DemoTheme;
-			productReference = B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme */;
+			productReference = B0CE3881D91B630D2BB504DC014F4387 /* DemoTheme.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,7 +378,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
 			productRefGroup = B10222FB6CDA45876DABC6EB147A1447 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -409,11 +405,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8292A4497E878AE73AABC1C2A37A8A92 /* Resources */ = {
+		E446788D585C01DFFFACB0B416E90EFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB6A627B4219CFDE7888EE47F9B7C2F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,18 +422,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07A0AB2DA882467C7B7A09E003C4FC6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A757DAF5D2419612CF0CF68F33A7021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0D48F61FB5CC2449149D05F509F5C84 /* Pods-DemoTheme_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B862983C9709F16D1FD3E05FF74E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,23 +459,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10BC5436F7A1E7B3293B3BF60529CE01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DemoTheme-DemoTheme";
-			target = 5A268FA6A46D621D9683D0AC7C01F43F /* DemoTheme-DemoTheme */;
-			targetProxy = F77B515FD02D159F5917F4B24E1DE7FF /* PBXContainerItemProxy */;
-		};
-		D7DCC1C9F2A26897A83FED07623A19EE /* PBXTargetDependency */ = {
+		19412D38966D018F811ADE019AB2C43E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DemoTheme_Example";
 			target = 6284D3E9C15E45C181F7F72EC2C818B5 /* Pods-DemoTheme_Example */;
-			targetProxy = DD957D761A4F254006A4F1B0A76D6C05 /* PBXContainerItemProxy */;
+			targetProxy = AFF984E8C414E5D4EFACD64C20D40F32 /* PBXContainerItemProxy */;
 		};
-		FEEA2D0B8EC0353F271623A05DC7FE70 /* PBXTargetDependency */ = {
+		2C10F63CBF20FFE1F821C076569EF085 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DemoTheme;
 			target = E8DFD2B68C3ABF5048A85BAAE5789399 /* DemoTheme */;
-			targetProxy = 68CFBD7F4178F6213B7E5A434EA71FAB /* PBXContainerItemProxy */;
+			targetProxy = 3A37999CAC3532798FA135F5FE4F7997 /* PBXContainerItemProxy */;
+		};
+		ABCFDE2CC5705A1C291B5B1A8BD38101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DemoTheme-DemoTheme";
+			target = 5A268FA6A46D621D9683D0AC7C01F43F /* DemoTheme-DemoTheme */;
+			targetProxy = 693C504745BD491FC51653D936C339DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -520,9 +515,26 @@
 			};
 			name = Release;
 		};
+		139E6F722064B85235004971F5C78B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889BCEB1D44088A6FD48F8976FE0631E /* DemoTheme.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DemoTheme";
+				IBSC_MODULE = DemoTheme;
+				INFOPLIST_FILE = "Target Support Files/DemoTheme/ResourceBundle-DemoTheme-DemoTheme-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = DemoTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		4113531DF9E8E2B2EE1C0047EF727C4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B0581F7F62C842A4C7C1D3A708CF812 /* DemoTheme.release.xcconfig */;
+			baseConfigurationReference = 889BCEB1D44088A6FD48F8976FE0631E /* DemoTheme.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -688,23 +700,6 @@
 			};
 			name = Debug;
 		};
-		66E061A631810F8C18DEA1EBDF20C157 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B0581F7F62C842A4C7C1D3A708CF812 /* DemoTheme.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DemoTheme";
-				IBSC_MODULE = DemoTheme;
-				INFOPLIST_FILE = "Target Support Files/DemoTheme/ResourceBundle-DemoTheme-DemoTheme-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = DemoTheme;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,8 +755,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -802,9 +796,9 @@
 			};
 			name = Release;
 		};
-		D6E63D53BCF1809059789A98F70BB603 /* Debug */ = {
+		D911BFD814C7CE28D1165559937CC171 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C6ACB0E53868132131FC40431A3DD6 /* DemoTheme.debug.xcconfig */;
+			baseConfigurationReference = 5B79C7AC8CB6A04E030B73A13A645967 /* DemoTheme.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DemoTheme";
@@ -821,7 +815,7 @@
 		};
 		E8F393E4D51D9F644AEBB4A43D3228E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C6ACB0E53868132131FC40431A3DD6 /* DemoTheme.debug.xcconfig */;
+			baseConfigurationReference = 5B79C7AC8CB6A04E030B73A13A645967 /* DemoTheme.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -855,20 +849,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		235F79A20E8D46A77DE33CE0E4D1112F /* Build configuration list for PBXNativeTarget "DemoTheme-DemoTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911BFD814C7CE28D1165559937CC171 /* Debug */,
+				139E6F722064B85235004971F5C78B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		294DEF1B6E197AEB6EEFF516E7899C31 /* Build configuration list for PBXNativeTarget "Pods-DemoTheme_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56905F23408B06E6ED694C52C9A9B1E8 /* Debug */,
 				0AEF6BCAF947BDF9C04A97F281960FBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2F70B82EE8FF769453503B2268A20F49 /* Build configuration list for PBXNativeTarget "DemoTheme-DemoTheme" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6E63D53BCF1809059789A98F70BB603 /* Debug */,
-				66E061A631810F8C18DEA1EBDF20C157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
